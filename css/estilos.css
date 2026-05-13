@@ -4,15 +4,16 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: aqua;
+    background-color: rgb(145, 255, 255);
     margin: 0;
 }
 
 #contenedor-principal{
     max-width: 1080px;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color:rgba(180, 238, 230, 0.9);
     padding: 2rem;
+    text-align: center;
 }
 .foto1 img{
     width: 100%;
@@ -24,12 +25,34 @@ body{
 .header1{
     max-width: 1080px;
     margin: 0 auto;
-    background-color: aqua;
+    background-color: rgba(112, 151, 151, 0.9);
     padding: 2rem;
+    text-align: center;
 }
 .footer1{
     max-width: 1080px;
     margin: 0 auto;
-    background-color: antiquewhite;
+    background-color: rgba(143, 129, 112, 0.9);
     padding: 2rem;
+    text-align: center;
+}
+.header1 nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    gap: 2rem;
+}
+.header1 nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+.header1 nav ul li a:hover{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
 }
