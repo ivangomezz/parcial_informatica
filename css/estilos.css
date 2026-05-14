@@ -26,7 +26,7 @@ h1, h2, h3 {
     text-align: center;
 }
 .foto1 img{
-    width: 100%;
+    width: 95%;
     max-width: 600px;
     height: auto;
     display: block;
@@ -95,7 +95,7 @@ ul{
      margin: 3rem auto;
      padding: 1rem;
 
-    background-color: rgba(255, 255, 255, 0.3);
+     background-color: rgba(255, 255, 255, 0.3);
      border: 1px solid rgba(0, 0, 0, 0.1);
      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 
@@ -108,7 +108,8 @@ ul{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 95%;
+    max width: 1080px;
     height: 100%;
     border: 0;
  }
